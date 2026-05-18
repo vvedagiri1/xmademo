@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "projectType": "doc"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://wknd-adventures.com"
+      ],
+      "description": "WKND Adventures homepage with hero, featured adventures, and content sections",
+      "blocks": [
+        {
+          "name": "hero-adventure",
+          "instances": [
+            ".hero-section.hero-section--full"
+          ]
+        },
+        {
+          "name": "columns-featured",
+          "instances": [
+            ".featured-article"
+          ]
+        },
+        {
+          "name": "tabs-activity",
+          "instances": [
+            ".tab-container.tab-container--wide"
+          ]
+        },
+        {
+          "name": "marquee-ticker",
+          "instances": [
+            ".ticker-strip"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            ".faq-list"
+          ]
+        },
+        {
+          "name": "cards-editorial",
+          "instances": [
+            ".editorial-index"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": "section.hero-section.hero-section--full",
+          "style": null,
+          "blocks": [
+            "hero-adventure"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Featured Article",
+          "selector": "main > section.secondary-section:first-of-type",
+          "style": "secondary",
+          "blocks": [
+            "columns-featured"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Browse by Activity",
+          "selector": "main > section.section:nth-of-type(3)",
+          "style": null,
+          "blocks": [
+            "tabs-activity"
+          ],
+          "defaultContent": [
+            ".section-heading .h2-heading"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Activity Ticker",
+          "selector": ".ticker-strip",
+          "style": null,
+          "blocks": [
+            "marquee-ticker"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Not Sure Where to Start",
+          "selector": "main > section.inverse-section:first-of-type",
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [
+            ".inverse-section .container--narrow .tag",
+            ".inverse-section .container--narrow .h2-heading",
+            ".inverse-section .container--narrow .paragraph-lg",
+            ".inverse-section .container--narrow .button-group"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Quick Answers FAQ",
+          "selector": "section:has(.faq-list)",
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            ".section-heading .h2-heading"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "How We Work",
+          "selector": "section.secondary-section:has(.editorial-index)",
+          "style": "secondary",
+          "blocks": [
+            "cards-editorial"
+          ],
+          "defaultContent": [
+            ".section-heading .h2-heading"
+          ]
+        },
+        {
+          "id": "section-8",
+          "name": "In the Field Gallery",
+          "selector": "section.inverse-section:has(.grid-images)",
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [
+            ".section-heading .h2-heading",
+            ".section-heading .text-button",
+            ".grid-images .gallery-img",
+            ".gallery-img--wide"
+          ]
+        },
+        {
+          "id": "section-9",
+          "name": "Final CTA",
+          "selector": "section.accent-section",
+          "style": "accent",
+          "blocks": [],
+          "defaultContent": [
+            ".accent-section .h2-heading",
+            ".accent-section .paragraph-lg",
+            ".accent-section .button-group"
+          ]
+        }
+      ]
+    }
+  ]
+}

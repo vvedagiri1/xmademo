@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-adventure",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-18T05:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://wknd-adventures.com",
+    "originPage": "homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "adventure-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background-image + tag + heading + paragraph + 2 CTAs",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "adventure/outdoor landing pages",
+      "homepage hero with background image",
+      "pages with bold full-width imagery and text overlay"
+    ],
+    "notSuitableFor": [
+      "minimal text-only heroes",
+      "product pages without background imagery",
+      "light-themed hero sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-18T05:36:00.000Z"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-editorial",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-18T05:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://wknd-adventures.com",
+    "originPage": "homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "editorial-steps",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "numbered items with heading + description",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "numbered editorial process steps",
+      "how-we-work sections",
+      "text-only card grids with process flow",
+      "value proposition lists"
+    ],
+    "notSuitableFor": [
+      "image-heavy card grids",
+      "product cards with CTAs",
+      "clickable article cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-18T05:36:00.000Z"
+  }
+}
