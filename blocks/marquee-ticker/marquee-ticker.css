@@ -1,0 +1,35 @@
+.marquee-ticker-container .marquee-ticker-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.marquee-ticker {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 12px 0;
+  background-color: var(--link-color, #e65c00);
+  color: var(--background-color, #fff);
+  font-weight: 700;
+  font-size: var(--body-font-size-m);
+  text-transform: uppercase;
+}
+
+.marquee-ticker .marquee-ticker-track {
+  display: inline-flex;
+  animation: marquee-ticker-scroll 30s linear infinite;
+}
+
+.marquee-ticker .marquee-ticker-content {
+  display: inline-block;
+  padding: 0 0.5ch;
+}
+
+@keyframes marquee-ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}

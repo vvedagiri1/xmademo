@@ -1,0 +1,40 @@
+{
+  "variantName": "marquee-ticker",
+  "baseBlock": "marquee",
+  "version": "1.0.0",
+  "created": "2026-05-18T05:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://wknd-adventures.com",
+    "originPage": "homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "accent",
+    "density": "compact",
+    "purpose": "category-ticker",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "list of category names scrolling horizontally",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "scrolling category/tag strips",
+      "brand or partner logo tickers",
+      "decorative text marquees",
+      "activity/topic horizontal scrollers"
+    ],
+    "notSuitableFor": [
+      "static content displays",
+      "interactive navigation elements",
+      "content requiring user click actions"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-18T05:36:00.000Z"
+  }
+}

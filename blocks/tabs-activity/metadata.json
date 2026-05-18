@@ -1,0 +1,39 @@
+{
+  "variantName": "tabs-activity",
+  "baseBlock": "tabs",
+  "version": "1.0.0",
+  "created": "2026-05-18T05:36:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://wknd-adventures.com",
+    "originPage": "homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "activity-browse",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "4 tabs + card grid content per tab",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "category-based content browsing",
+      "tabbed article/card grids",
+      "activity or topic filtering interfaces"
+    ],
+    "notSuitableFor": [
+      "simple text tabs",
+      "tabs with form content",
+      "single-item tab panels"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-18T05:36:00.000Z"
+  }
+}
